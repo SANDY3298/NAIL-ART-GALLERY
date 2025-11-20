@@ -17,6 +17,7 @@ const Icons: Record<string, React.ReactNode> = {
   '復古': <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>, // Clock
   '簡約': <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 12H4" /></svg>, // Minus
   '時尚': <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>, // Eye
+  '保養': <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" /></svg>, // Sun/Shine/Care
 };
 
 const DefaultIcon = <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>;
@@ -179,7 +180,7 @@ const App: React.FC = () => {
             <div className="flex items-center gap-2 justify-center md:justify-start mb-2">
                <span className="font-serif font-bold text-xl text-gray-900">Nail Art Gallery</span>
             </div>
-            <p className="text-gray-400 text-sm">© 2024 為您帶來指尖上的無限創意</p>
+            <p className="text-gray-400 text-sm">© 2024 Designed by SANDY3298 | 為您帶來指尖上的無限創意</p>
           </div>
           <div className="flex gap-8 text-gray-400">
              <a href="#" className="hover:text-pink-600 transition-colors text-sm font-medium tracking-wide">INSTAGRAM</a>
